@@ -1,5 +1,5 @@
 ##Data
-The tidy data was created from the Human Activity Recognition Using Smartphones Dataset. The raw data is available for download here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The tidy data was created from the Human Activity Recognition Using Smartphones Dataset. If your're interested the raw data is available for download here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ##Changes to the orginal data
 
@@ -7,10 +7,10 @@ The tidy data was created from the Human Activity Recognition Using Smartphones 
 1. I set descriptive column names for X_train and Y_train, from features.txt and activity_labels.txt
 1. I combined the data, user ids and activity ids into one data frame
 1. I used a regular expression to find the column indices and names for all columns that calculated mean or standard deviation.
-1. I subseted the raw to only use the columns from the previous step
+1. I subsetted the raw to only use the columns from the previous step
 1. I did the same thing for the test data.
 1. I combined the training and test data into one long table (adding the one to the bottom of the other).
-1. I used melt to split the data into tuples of subject, activity_id
+1. I used melt to split the data into tuples using (subject, activity_id) 
 1. I used dcast to put the data into a wide table where each row starts with subject, activity_id and is followed by long a long list of columns with names using a "subject + activity_label ~ variable" template 
 
 The tidy data we are left with has one row for every user, activity pair, and a column for the average of each of the mean/standard deviation measures for that user/activity pair.
