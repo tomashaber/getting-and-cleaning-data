@@ -5,7 +5,7 @@ The purpose of this project is to demonstrate my ability to collect, work with, 
 ## Files description
 
 ### run_analysis.R
-  * cleans the dataset and saves the it to a file named 'tidy_data.txt'
+  * cleans the dataset and saves it to a file named 'tidy_data.txt'
   * requires to be in the same directory as the UCI HAR Dataset directory with the raw data
 
 ### README.md
