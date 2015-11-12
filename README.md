@@ -1,6 +1,6 @@
 # README
 
-The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. Below you can find the description of all the files in this git repository.
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. I hope this achieves the purpose. Below you can find the description of all the files in this git repository.
 
 ## Files description
 
